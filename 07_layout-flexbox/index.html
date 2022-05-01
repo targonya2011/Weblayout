@@ -3,17 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
     <title>Сеть отелей Lagoona</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
         <h1 class="main-name">Сеть отелей Lagoona</h1>
-        <div class="header-top-block">
+        <div class="header-top-block flex">
           <a href="index.html" class="header-logo">
             <img
               src="img/logo-header.png"
-              class="header-logo"
+              class="header-logo-img"
               alt="Сеть отелей Lagoona"
             />
           </a>
@@ -22,9 +24,9 @@
             Личный кабинет
           </a>
         </div>
-        <div class="header-bottom-block">
+        <div class="header-bottom-block flex">
           <nav class="header-nav">
-            <ul class="header-list">
+            <ul class="list-reset header-list flex">
               <li class="header-item">
                 <a href="#about-us" class="header-link">О&nbsp;нас</a>
               </li>
@@ -56,20 +58,20 @@
       <section class="special-offers">
         <div class="container">
           <h2 class="title-h2 offer-h2">Спецпредложения</h2>
-          <div class="offer-wrap">
+          <div class="offer-wrap flex">
             <div class="offer-left">
-              <article class="offer-card">
-                <h3 class="offer-h3">Мальдивские острова</h>
+              <article class="offer-card flex">
+                <h3 class="offer-h3">Мальдивские острова </h3>
                 <span class="offer-price">от&nbsp;55&nbsp;000&nbsp;р</span>
                 <a class="offer-more" src="#" alt="">Подробнее</a>
               </article>
-              <article class="offer-card">
+              <article class="offer-card flex">
                 <h3 class="offer-h3">Горящий тур на остров Крит</h3>
                 <span class="offer-price">от 30 000 р</span>
                 <a class="offer-more" src="#" alt="">Подробнее</a>
             </article>
             </div>
-            <article class="offer-card offer-right">
+            <article class="offer-card offer-right flex">
               <h3 class="offer-h3">Номера категории люкс</h3>
               <span class="offer-price">от 5 000 р</span>
               <a class="offer-more" src="#" alt="">Подробнее</a>
@@ -96,8 +98,8 @@
       <section id="services" class="services">
         <div class="container">
           <h2 class="section-title">Услуги</h2>
-          <ul class="services-list">
-            <li class="service-item">
+          <ul class="list-reset services-list flex">
+            <li class="service-item flex">
               <div class="service-card-img">
               </div>
               <h3 class="btn service-card-btn btn-more">
@@ -110,7 +112,7 @@
                 активности
               </p>
             </li>
-            <li class="services-item">
+            <li class="service-item flex">
               <h3 class="btn service-card-btn btn-more">
                 <a href="#" class="service-item-link">
                   Аренда банкетных залов
@@ -121,7 +123,7 @@
                 развитие различных форм.
               </p>
             </li>
-            <li class="service-item">
+            <li class="service-item flex">
               <h3 class="btn service-card-btn btn-more">
                 <a href="#" class="service-item-link">
                   Сауны, бассейны, бани, фитнес-залы
@@ -132,7 +134,7 @@
                 по&nbsp;формированию позиции
               </p>
             </li>
-            <li class="service-item">
+            <li class="service-item flex">
               <h3 class="services-text text-block">
                 <a href="#" class="service-item-link">
                   Охраняемые автомобильные стоянки
@@ -149,7 +151,7 @@
       <section id="advantages" class="advantages">
         <div class="container">
           <h2 class="section-title">Преимущества</h2>
-          <ul class="advantages-list">
+          <ul class="list-reset advantages-list flex">
             <li class="advantages-item">
               <div class="advantages-card-img">
               </div>
@@ -220,8 +222,8 @@
       <section id="accommodation" class="accommodation">
         <div class="container">
           <h2 class="section-title">Размещение</h2>
-          <ul class="accommodation-list">
-            <li class="accommodation-item">
+          <ul class="list-reset accommodation-list flex">
+            <li class="accommodation-item flex">
               <article class="accommodation-card cards">
                 <img
                   src="img/hotel-1.png"
@@ -229,7 +231,7 @@
                   class="hotel-image"
                 />
                 <span class="accommodation-card-price">от <b>4&nbsp;698&nbsp;р</b>ночь</span>
-                <div class="rating">
+                <div class="rating flex">
                   <img src="img/i-star.png" alt="Рейтинг отеля 4 из 5" />
                   <img src="img/i-star.png" alt="" />
                   <img src="img/i-star.png" alt="" />
@@ -241,7 +243,7 @@
                 <button class="hotels-numbers">Номера</button>
               </article>
             </li>
-            <li class="accommodation-item">
+            <li class="accommodation-item flex">
               <article class="accommodation-card cards">
                 <img
                   src="img/hotel-2.png"
@@ -261,7 +263,7 @@
                 <button class="hotels-numbers">Номера</button>
               </article>
             </li>
-            <li class="accommodation-item">
+            <li class="accommodation-item flex">
               <article class="accommodation-card cards">
                 <img
                   src="img/hotel-3.png"
@@ -281,7 +283,7 @@
                 <button class="hotels-numbers">Номера</button>
               </article>
             </li>
-            <li class="accommodation-item">
+            <li class="accommodation-item flex">
               <article class="accommodation-card cards">
                 <img
                   src="img/hotel-4.png"
@@ -301,7 +303,7 @@
                 <button class="hotels-numbers">Номера</button>
               </article>
             </li>
-            <li class="accommodation-item">
+            <li class="accommodation-item flex">
               <article class="accommodation-card cards">
                 <img
                   src="img/hotel-5.png"
@@ -321,7 +323,7 @@
                 <button class="hotels-numbers">Номера</button>
               </article>
             </li>
-            <li class="accommodation-item">
+            <li class="accommodation-item flex">
               <article class="accommodation-card cards">
                 <img
                   src="img/hotel-6.png"
@@ -341,7 +343,7 @@
                 <button class="hotels-numbers">Номера</button>
               </article>
             </li>
-            <li class="accommodation-item">
+            <li class="accommodation-item flex">
               <article class="accommodation-card cards">
                 <img
                   src="img/hotel-7.png"
@@ -361,7 +363,7 @@
                 <button class="hotels-numbers">Номера</button>
               </article>
             </li>
-            <li class="accommodation-item">
+            <li class="accommodation-item flex">
               <article class="accommodation-card cards">
                 <img
                   src="img/hotel-8.png"
@@ -381,7 +383,7 @@
                 <button class="hotels-numbers">Номера</button>
               </article>
             </li>
-            <li class="accommodation-item">
+            <li class="accommodation-item flex">
               <a class="accommodation-card text-more" href="#">Посмотреть все варианты</a>
             </li>
           </ul>
@@ -397,7 +399,7 @@
         <div class="container">
           <h2 class="section-title">Контакты</h2>
           <address class="contacts-address">
-            <ul class="contacts-list">
+            <ul class="list-reset contacts-list">
               <li class="contact-item">
                 <strong class="contacts-item-caption"> Адрес </strong>
                 <p class="contacts-item-text">
