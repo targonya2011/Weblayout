@@ -62,11 +62,15 @@ body {
   margin-bottom: 20px;
 }
 .offer-card {
+  flex-basis: 50%;
   flex-direction: column;
   width: 573px;
   padding: 40px;
   padding-bottom: 0;
   outline: 1px solid red;
+}
+.offer-card:not(:last-child) {
+  margin-bottom: 23px;
 }
 .offer-h3 {
   margin: 0;
@@ -77,11 +81,13 @@ body {
   margin-bottom: 47px;
 }
 .offer-more {
-  margin-bottom: 40px;
 }
 .offer-right {
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
+}
+.offer-wrap {
+  justify-content: space-betweens;
 }
 .section-title {
   margin: 0;
@@ -121,8 +127,8 @@ body {
 .advantages-list {
   flex-wrap: wrap;
 }
-.advantages-item:not(:nth-child(3n)) {
-  margin-right: 25px;
+.advantages-item:not(:nth-child(4n)) {
+  margin-right: 23px;
 }
 .accommodation-list {
   flex-wrap: wrap;
@@ -146,4 +152,8 @@ body {
 .accommodation-card-title {
   margin: 0;
   margin-bottom: 15px;
+}
+.last-item {
+  justify-content: flex-end;
+  align-items: center;
 }
