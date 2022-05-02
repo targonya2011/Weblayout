@@ -33,22 +33,16 @@ body {
 }
 .container {
   width: 1200px;
-  padding: 0 15px;
+  padding: 15px 15px;
   margin: 0 auto;
 }
 .main-name {
   display: none;
   opacity: 0;
 }
-.header-logo-img {
-  margin-right: 35px;
-}
-.header-contact {
-  margin-right: 580px;
-}
 .header-top-block {
-  margin: 0;
   margin-bottom: 30px;
+  justify-content: space-between;
 }
 .header-bottom-block {
   justify-content: space-between;
