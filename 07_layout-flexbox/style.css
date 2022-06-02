@@ -1,0 +1,158 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+body {
+  min-width: 1200px;
+  font-family: 'font', sans-serif;
+}
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+}
+.container {
+  width: 1200px;
+  padding: 15px 15px;
+  margin: 0 auto;
+}
+.main-name {
+  display: none;
+  opacity: 0;
+}
+.header-top-block {
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+.header-bottom-block {
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.header-item:not(:last-child) {
+  margin-right: 45px;
+}
+.title-h2 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.offer-card {
+  flex-basis: 50%;
+  flex-direction: column;
+  width: 573px;
+  padding: 40px;
+  padding-bottom: 0;
+  outline: 1px solid red;
+}
+.offer-card:not(:last-child) {
+  margin-bottom: 23px;
+}
+.offer-h3 {
+  margin: 0;
+  margin-bottom: 15px;
+}
+.offer-price {
+  margin: 0;
+  margin-bottom: 47px;
+}
+.offer-more {
+}
+.offer-right {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.offer-left {
+  flex-direction: column;
+  margin-right: 23px;
+  flex-basis: 50%;
+}
+.offer-wrap {
+  justify-content: space-between;
+}
+.section-title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.special-offers {
+  margin-bottom: 70px;
+}
+.about-us {
+  margin-bottom: 70px;
+}
+.service-item {
+  flex-direction: column;
+  width: 572px;
+  margin-bottom: 25px;
+  outline: 1px solid red;
+}
+.service-item:not(:nth-child(2n)) {
+  margin-right: 20px;
+}
+.services-list {
+  flex-wrap: wrap;
+}
+.text-block {
+  display: block;
+}
+.service-card-btn {
+  margin: 0;
+  margin-bottom: 3px;
+}
+.services-text {
+  margin: 0;
+}
+.advantages-item {
+  width: 275px;
+}
+.advantages-list {
+  flex-wrap: wrap;
+}
+.advantages-item:not(:nth-child(4n)) {
+  margin-right: 23px;
+}
+.accommodation-list {
+  flex-wrap: wrap;
+}
+.accommodation-item {
+  flex-direction: column;
+  width: 370px;
+  height: 440px;
+  margin-bottom: 23px;
+  outline: 1px solid red;
+}
+.accommodation-item:not(:nth-child(3n)) {
+  margin-right: 25px;
+}
+.hotels-numbers {
+  display: block;
+}
+.accommodation-card-country {
+  padding-bottom: 20px;
+}
+.accommodation-card-title {
+  margin: 0;
+  margin-bottom: 15px;
+}
+.last-item {
+  justify-content: flex-end;
+  align-items: center;
+}
