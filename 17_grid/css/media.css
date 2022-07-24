@@ -1,0 +1,270 @@
+@media screen and (max-width:992px) {
+  .hero__title {
+    margin-bottom: 14px;
+    font-size: 50px;
+    line-height: 100%;
+  }
+  .header__content {
+    padding-bottom: 27px;
+  }
+  .hero__content {
+    padding-top: 111px;
+  }
+  .back-header-img {
+    padding-top: 96px;
+  }
+  .hero {
+    padding-bottom: 116px;
+  }
+  .benefis-lern .section-title,
+  .benefis-lern .benefis-lern-descr {
+    width: 100%;
+  }
+  .benefis__item {
+    background-position: left top;
+    padding: 0;
+    padding-top: 95px;
+  }
+  .benefis-lern {
+    margin-bottom: 22px;
+  }
+  .benefis__item-descr {
+    width: 95%;
+  }
+  .benefits {
+    padding-bottom: 74px;
+  }
+  .teacher-photo {
+    margin-bottom: 26px;
+  }
+  .teacher-descr {
+    margin-bottom: 26px;
+  }
+  .teachers {
+    padding-bottom: 49px;
+  }
+  .course-name {
+    width: 104%;
+  }
+  .course-column {
+    min-height: 375px;
+  }
+  .course-descr {
+    width: 100%;
+  }
+  .show-more {
+    width: 195px;
+  }
+  .course-card {
+    background-size: 330px 180px;
+  }
+  .courses {
+    padding-bottom: 49px;
+  }
+  .footer {
+    padding-top: 28px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .header__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__logo {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .header__list {
+    margin: 0;
+    padding-top: 33px;
+  }
+  .header__item:not(:last-child) {
+    margin-right: 57px;
+  }
+  .hero__content {
+    padding-top: 60px;
+  }
+  .back-header-img {
+    display: none;
+  }
+  .hero__descr {
+    width: 70%;
+    margin-bottom: 64px;
+  }
+  .hero {
+    padding-bottom: 113px;
+  }
+  .benefits-picture {
+    padding-top: 0px;
+  }
+  .benefis-lern .benefis-lern-descr {
+    width: 98%;
+  }
+  .benefis__item {
+    padding-top: 92px;
+  }
+  .benefis__item-descr {
+    width: 96%;
+  }
+  .benefits {
+    padding-bottom: 58px;
+  }
+  .teacher-photo {
+    margin-bottom: 24px;
+  }
+  .teacher-name {
+    margin-bottom: 7px
+  }
+  .teachers {
+    padding-bottom: 47px;
+  }
+  .course-card {
+    background-size: 100% 28%;
+  }
+  .course-name {
+    line-height: 130%;
+    margin-bottom: 8px;
+  }
+  .course-column {
+    min-height: 473px;
+    padding-right: 0;
+  }
+  .dsmax .course-name {
+    width: 70%;
+  }
+  .course-descr {
+    width: 84%;
+  }
+  .zbrush .course-descr {
+    width: 90%;
+  }
+  .cinema .course-descr {
+    width: 85%;
+  }
+  .show-more {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width:576px) {
+
+  .header__content {
+    flex-direction: row;
+  }
+  .hero__title {
+    font-size: 30px;
+    line-height: 100%;
+  }
+  .header__content {
+    margin: 0;
+    padding: 31px 0;
+    padding-bottom: 25px;
+  }
+  .hero__content {
+    padding-top: 30px;
+  }
+  .hero__descr {
+    width: 100%;
+    margin-bottom: 42px;
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .hero__title {
+    margin-bottom: 5px;
+  }
+  .blue-button {
+    height: 65px;
+    width: 212px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .hero {
+    padding-bottom: 28px;
+  }
+  .benefits-picture {
+    display: none;
+  }
+  .section-title {
+    font-size: 20px;
+    line-height: 130%;
+  }
+  .benefits {
+    padding-bottom: 28px;
+    padding-top: 50px;
+  }
+  .benefis-lern .section-title {
+    margin-bottom: 3px;
+  }
+  .benefis__item {
+    padding: 0;
+    padding-left: 110px;
+    background-position: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .benefis-lern {
+    margin-bottom: 3px;
+  }
+  .teachers {
+    padding-top: 44px;
+    padding-bottom: 23px;
+  }
+  .teacher-quote {
+    width: 95%;
+  }
+  .courses {
+    padding-top: 43px;
+    padding-bottom: 20px;
+  }
+  .course-card {
+    margin-bottom: 28px;
+    background-size: 100% 28%;
+  }
+  .courses .section-title {
+    margin-bottom: 22px;
+  }
+  .course-name {
+    width: 95%;
+  }
+  .cinema .course-descr {
+    width: 87%;
+  }
+  .dsmax .course-name {
+    width: 67%;
+  }
+  .zbrush .course-descr {
+    width: 87%;
+  }
+  .blue-button {
+    width: 196px;
+  }
+  .header__content {
+    justify-content: space-between;
+  }
+  .header__list {
+    display: none;
+  }
+  .menuToggle {
+    display: block;
+    z-index: 1003;
+  }
+  .header__list {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 78px;
+    padding-left: 15px;
+    height: 76vh;
+    background-color: #2F2C45;
+    z-index: 1002;
+  }
+  .header__item:not(:last-child) {
+    margin: 0;
+    margin-bottom: 56px;
+  }
+}
+
+
