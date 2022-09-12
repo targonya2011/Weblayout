@@ -311,3 +311,17 @@ p {
   justify-content: center;
   cursor: pointer;
 }
+.form button {
+  width: 50%;
+  height: 60px;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #FF5C00;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
